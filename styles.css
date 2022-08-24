@@ -1,3 +1,170 @@
 :root {
+    --azul: #2C52B7;
+    --azul-claro: #F1F5F9;
+    --preto: #000000;
+    --branco: #FCFDFF;
+    --cinza: #94A3B8;
+    --laranja: #F18F01;
+    --verde: #047857;
+    --verde-claro: #ECFDF5;
+    --rosa: #BE123C;
+    --rosa-claro: #FFF1F2;
+    --azul-card: #0369A1;
+    --azul-claro-card: #F0F9FF;
+    --roxo: #4338CA; 
+    --roxo-claro: #EEF2FF;
+    --fonte-principal: 'Poppins'
+}
+
+.cabecalho {
+    display: flex;
+    font-family: var(--fonte-principal);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item__menu {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.item__menu__destaque {
+    text-decoration: none;
+    background-color: var(--azul);
+    color: var(--branco);
+    padding: 10px 30px;
+    border-radius: 24px;
+    justify-content: center;
+}
+
+.container {
+    font-family: var(--fonte-principal);
+    max-width: 1200px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.container__destaque {
+    text-align: center;
+}
+
+.titulo__destaque {
+    font-size: 75px;
+    font-weight: 700;
+    color: var(--preto);
+    padding: 30px;
+    margin: 66px 0 35px 0;
+}
+
+.texto__destaque {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--preto); 
+    margin-bottom: 41px;
+}
+
+.email {
+    background-color: var(--azul-claro);
+    border: 1px solid var(--azul-claro);
+    padding: 16px;
+    border-radius: 40px;
+}
+
+.container__video {
+    text-align: center;
+}
+
+.titulo__video {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.video {
+    border: 15px solid #DBEAFE;
+    border-radius: 70px;
+}
+
+.lista__cards {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item__cards {
+    padding: 16px 16px 28px;
+}
+
+.titulo__cards {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.nome__card {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 14px 0;
     
+}
+
+.nome__card-um {
+    color: var(--verde);
+}
+
+.nome__card-dois {
+    color: var(--rosa);
+}
+
+.nome__card-tres {
+    color: var(--azul-card);
+}
+
+.nome__card-quatro {
+    color: var(--roxo);
+}
+
+.descricao__card {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--preto);
+    margin: 0;
+}
+
+.box {
+
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.box__um {
+    background-color: var(--verde-claro);
+    border-radius: 16px;
+}
+
+.box__dois {
+    background-color: var(--rosa-claro);
+    border-radius: 16px;
+}
+
+.box__tres {
+    background-color: var(--azul-claro-card);
+    border-radius: 16px;
+}
+
+.box__quatro {
+    background-color: var(--roxo-claro);
+    border-radius: 16px;
 }
