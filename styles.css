@@ -19,6 +19,8 @@
 .cabecalho {
     display: flex;
     font-family: var(--fonte-principal);
+    justify-content: space-between;
+    margin: 20px 200px 0;
 }
 
 .menu {
@@ -31,6 +33,11 @@
 .item__menu {
     text-decoration: none;
     color: var(--preto);
+    margin-right: 50px;
+}
+
+.destaque__botao {
+    margin: 24px;
 }
 
 .item__menu__destaque {
@@ -200,6 +207,7 @@
     display: flex;
     border-radius: 32px;
     margin: 40px 0;
+    box-shadow: 0 0 0.5em var(--preto);
 }
 
 .texto__final {
@@ -226,6 +234,8 @@
 .rodape {
     display: flex;
     justify-content: space-around;
+    border-top: 1px solid var(--cinza);
+    margin-top: 30px;
 }
 
 .lista__rodape {
@@ -236,6 +246,11 @@
     font-size: 28px;
     font-weight: 700;
     color: var(--preto);
+    margin-top: 60px;
+}
+
+.logo__rodape {
+    margin-top: 60px;
 }
 
 .rodape__link {
@@ -250,10 +265,42 @@
     color: var(--preto);
     font-size: 20px;
     font-weight: 400;
+    float: right;
 }
 
 .endereco {
     color: var(--preto);
     font-size: 20px;
     font-weight: 400;
+    width: 65%;
+}
+
+.telefone {
+    border: 1px solid var(--cinza);
+    padding: 9px;
+    border-radius: 16px;
+    width: 36%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.item__menu-active {
+    background-color: var(--azul-claro);
+    color: var(--azul);
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+
+
+.cont__video {
+    position: relative;
+}
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
